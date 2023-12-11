@@ -41,7 +41,6 @@ First thing, create VM in Azure portal. Grab public IP address from VM open remo
 <br />
 
 ![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/fdbd6a19-bce9-4113-9ca5-f5577eb902d5)
-p>
 
 </p>
 <p>
@@ -65,11 +64,10 @@ OsTicket has been installed; now setup it up to be used. There are some extensio
 
 
 ![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/f14d6609-3101-452a-b922-5f55749d8b21)
-p>
 
 </p>
 <p>
-Installed w/o error.
+Installed w/o error. Lets began to set up some tickets. 
 </p>
 <br />
 
