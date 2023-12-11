@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Install osTicket with Prerequisites](https://youtu.be/dEvGaxOgqf0?si=LA1ol004g0BYSvwq)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,34 +22,58 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install / Enable IIS in Windows
+- Install MySQL server
+- OsTicket installer
+- OsTicket installed
+- Helpdesk ready
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/2659b6e4-0807-416b-addb-f2ebe17ef33d)
+
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First thing, create VM in Azure portal. Grab public IP address from VM open remote desktop connection.  Install/Enable IIS in Windows / CGI and common HTTP features. Install PHP for IIS. Install rewrite module. Install VC redist. Successfully installed IIS in Windows.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/fdbd6a19-bce9-4113-9ca5-f5577eb902d5)
+p>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Ready to insall MySQL. When installing we will do Typical setup-> Launch Configuration Wizard (after install) -> Standard Configuration
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/ec297d2d-3173-468f-babb-21e6a218932e)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+OsTicket has been installed, now setup it up to be used. There are some extensions to be enabled. Rename the ost-sampleconfig.php file. Assign new permissions to everyone. Then continue on to setting up osTicket in browser. The last installation file will be Heidi SQL. 
+</p>
+
+
+![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/9c2b4500-0c23-402d-ac83-1511c0ab5bec)
+
+<p>
+OsTicket has been installed; now setup it up to be used. There are some extensions to be enabled. Rename the ost-sampleconfig.php file. Assign new permissions to everyone. Then continue on to setting up osTicket in browser. The last installation file will be Heidi SQL. 
+
+
+![image](https://github.com/kayetech84/osticket-prereqs/assets/153541024/f14d6609-3101-452a-b922-5f55749d8b21)
+p>
+
+</p>
+<p>
+Installed w/o error.
 </p>
 <br />
+
+
+
+
+
