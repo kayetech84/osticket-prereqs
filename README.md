@@ -25,8 +25,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install / Enable IIS in Windows
 - Install MySQL server
 - OsTicket installer
-- OsTicket installed
-- Helpdesk ready
+- Install C++
+- Config persmissons 
 
 <h2>Installation Steps</h2>
 
